@@ -47,7 +47,7 @@ img {
 
 .site-header {
     padding: 16px 0px;
-    border-top: 5px solid var(-main-color);
+    border-top: 5px solid var(--main-color);
 }
 
 .header-container {
@@ -117,7 +117,7 @@ img {
     color: var(--light);
     font-size: 13px;
     font-weight: bold;
-    background-color: var(-main-color);
+    background-color: var(--main-color);
     padding: 12px 24px;
     border-radius: 4px;
     transition: opacity 0.4s ease;
