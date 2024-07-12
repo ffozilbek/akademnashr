@@ -252,6 +252,7 @@ main {
 
 .promo-content {
     width: 440px;
+    margin-right: 60px;
 }
 
 .promo-heading {
@@ -376,6 +377,13 @@ strong {
     opacity: 0.6;
 }
 
+@media only screen and (max-width: 1100px){
+    .promo-img {
+        position: static;
+    }
+
+}
+
 @media only screen and (max-width: 975px) {
     .hero {
         padding: 30px 0px;
@@ -394,6 +402,17 @@ strong {
         width: 400px;
         height: 400px;
         position: static;
+    }
+
+    .promo-inner {
+        padding: 40px;
+    }
+    .promo-img {
+        width: 380px;
+        height: 380px;
+    }
+    .promo-heading {
+        font-size: 32px;
     }
 
     .feature-item {
@@ -441,6 +460,20 @@ strong {
         position: static;
     }
 
+    .promo-inner {
+        padding: 20px;
+    }
+    .promo-img {
+        width: 300px;
+        height: 300px;
+    }
+    .promo-heading {
+        font-size: 32px;
+    }
+
+    .features {
+        padding: 150px 0px;
+    }
 }
 
 @media only screen and (max-width: 720px) {
@@ -476,6 +509,31 @@ strong {
     }
     .icon-wrapper {
         margin-bottom: 24px;
+    }
+
+    .promo-container {
+        width: 100%;
+        padding: 0;
+    }
+    .promo-inner {
+        flex-direction: column-reverse;
+        padding: 30px;
+        text-align: center;
+        border-radius: 0;
+    }
+    .promo-content {
+        margin-right: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 100%;
+    }
+    .promo-img {
+        width: 300px;
+        height: 300px;
+        margin-bottom: 30px;
+    }
+    .promo-heading {
+        font-size: 28px;
     }
 }
 
@@ -525,4 +583,18 @@ strong {
         font-size: 32px;
         margin-bottom: 16px;
     }
+
+    .promo-img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .site-footer-top {
+        flex-direction: column;
+    }
+
+    .logo {
+        margin-bottom: 20px;
+    }
+
 }
